@@ -1,0 +1,383 @@
+#clip-div{
+    width: 100vw;
+    height: 100vh;
+    background: greenyellow;
+    clip-path: circle(40% at 10% 21%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#clip-circle{
+    position: fixed;
+    top: -250px;
+    left: 0;
+    z-index: -2;
+    width: 80vw;
+    background: white;
+    height: 180vh;
+border-radius: 50%;
+
+}
+
+#clip-div-right{
+    position: fixed;
+    right: 0;
+    z-index: -3;
+    top: 0;
+    height: 100vh;
+    width: 70%;
+    background-color: greenyellow;
+}
+
+/* Parameters */
+body {
+    background: white;
+  }
+  
+.face{
+    position: fixed;
+    top: -310px;
+    left: 0;
+    width: 82vw;
+    height: 100vh;
+border-radius: 50%;
+
+}
+
+#main-section .col-md-8{
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  #main-section .card{
+      width: 150px;
+      height: 150px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+  }
+  .card div{
+      font-weight: bold;
+      font-size: 50px;
+  }
+  .ticks {
+  
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+  .ticks .tick {
+    display: block;
+    height: 1px;
+    width: 90%;
+    position: absolute;
+    top: 680px;
+    left: 40px;
+    transform-origin: 0% 50%;
+    
+  }
+
+  .ticks .tick::after {
+    content: "";
+    background: rgb(71, 242, 94);
+    display: block;
+    height: 2px;
+    width: 3%;
+    position: absolute;
+    top: 0;
+    right: 0%;
+    
+  }
+ 
+  
+  .tick--1 {
+    transform: rotate(6deg);
+  }
+  
+  .tick--2 {
+    transform: rotate(12deg);
+  }
+  
+  .tick--3 {
+    transform: rotate(18deg);
+  }
+  
+  .tick--4 {
+    transform: rotate(24deg);
+  }
+  
+  .tick--5 {
+    transform: rotate(30deg);
+  }
+  
+  .tick--6 {
+    transform: rotate(36deg);
+  }
+  
+  .tick--7 {
+    transform: rotate(42deg);
+  }
+  
+  .tick--8 {
+    transform: rotate(48deg);
+  }
+  
+  .tick--9 {
+    transform: rotate(54deg);
+  }
+  
+  .tick--10 {
+    transform: rotate(60deg);
+  }
+  
+  .tick--11 {
+    transform: rotate(66deg);
+  }
+  
+  .tick--12 {
+    transform: rotate(72deg);
+  }
+  
+  .tick--13 {
+    transform: rotate(78deg);
+  }
+  
+  .tick--14 {
+    transform: rotate(84deg);
+  }
+  
+  .tick--15 {
+    transform: rotate(90deg);
+  }
+  
+  .tick--16 {
+    transform: rotate(96deg);
+  }
+  
+  .tick--17 {
+    transform: rotate(102deg);
+  }
+  
+  .tick--18 {
+    transform: rotate(108deg);
+  }
+  
+  .tick--19 {
+    transform: rotate(114deg);
+  }
+  
+  .tick--20 {
+    transform: rotate(120deg);
+  }
+  
+  .tick--21 {
+    transform: rotate(126deg);
+  }
+  
+  .tick--22 {
+    transform: rotate(132deg);
+  }
+  
+  .tick--23 {
+    transform: rotate(138deg);
+  }
+  
+  .tick--24 {
+    transform: rotate(144deg);
+  }
+  
+  .tick--25 {
+    transform: rotate(150deg);
+  }
+  
+  .tick--26 {
+    transform: rotate(156deg);
+  }
+  
+  .tick--27 {
+    transform: rotate(162deg);
+  }
+  
+  .tick--28 {
+    transform: rotate(168deg);
+  }
+  
+  .tick--29 {
+    transform: rotate(174deg);
+  }
+  
+  .tick--30 {
+    transform: rotate(180deg);
+  }
+  
+  .tick--31 {
+    transform: rotate(186deg);
+  }
+  
+  .tick--32 {
+    transform: rotate(192deg);
+  }
+  
+  .tick--33 {
+    transform: rotate(198deg);
+  }
+  
+  .tick--34 {
+    transform: rotate(204deg);
+  }
+  
+  .tick--35 {
+    transform: rotate(210deg);
+  }
+  
+  .tick--36 {
+    transform: rotate(216deg);
+  }
+  
+  .tick--37 {
+    transform: rotate(222deg);
+  }
+  
+  .tick--38 {
+    transform: rotate(228deg);
+  }
+  
+  .tick--39 {
+    transform: rotate(234deg);
+  }
+  
+  .tick--40 {
+    transform: rotate(240deg);
+  }
+  
+  .tick--41 {
+    transform: rotate(246deg);
+  }
+  
+  .tick--42 {
+    transform: rotate(252deg);
+  }
+  
+  .tick--43 {
+    transform: rotate(258deg);
+  }
+  
+  .tick--44 {
+    transform: rotate(264deg);
+  }
+  
+  .tick--45 {
+    transform: rotate(270deg);
+  }
+  
+  .tick--46 {
+    transform: rotate(276deg);
+  }
+  
+  .tick--47 {
+    transform: rotate(282deg);
+  }
+  
+  .tick--48 {
+    transform: rotate(288deg);
+  }
+  
+  .tick--49 {
+    transform: rotate(294deg);
+  }
+  
+  .tick--50 {
+    transform: rotate(300deg);
+  }
+  
+  .tick--51 {
+    transform: rotate(306deg);
+  }
+  
+  .tick--52 {
+    transform: rotate(312deg);
+  }
+  
+  .tick--53 {
+    transform: rotate(318deg);
+  }
+  
+  .tick--54 {
+    transform: rotate(324deg);
+  }
+  
+  .tick--55 {
+    transform: rotate(330deg);
+  }
+  
+  .tick--56 {
+    transform: rotate(336deg);
+  }
+  
+  .tick--57 {
+    transform: rotate(342deg);
+  }
+  
+  .tick--58 {
+    transform: rotate(348deg);
+  }
+  
+  .tick--59 {
+    transform: rotate(354deg);
+  }
+  
+  .tick--60 {
+    transform: rotate(360deg);
+  }
+  
+  @media screen and (max-width: 770px){
+#clip-circle{
+    display: none;
+}
+#clip-div-right{
+    display: none;
+}
+.face{
+    display: none;
+}
+#main-section .card{
+    width: 250px;
+    height: 250px;
+    margin: 10px auto;
+}
+  }
+  @-webkit-keyframes rotating /* Safari and Chrome */ {
+    from {
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotating {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+ 
